@@ -1,0 +1,191 @@
+
+.contener1-add{
+    border-radius: 5px;
+    margin: 0px auto;
+    width: 900px;
+}
+.photo-add{
+    max-width: 100%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #aaa;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 2px;
+  
+}
+.body-add{
+    display: flex;
+}
+
+.body-left-add{
+    width: 50%;
+  
+}
+.body-right-add{
+    width: 50%;
+    
+}
+
+.button-dong-add{
+    width:70px;
+    border-radius: 2px;
+    height: 30px;
+    border: none;
+    background-color:#DDDDDD ;
+    font-weight: 100;
+    cursor: pointer;
+    font-weight: 700 !important;
+    margin-right: 10px;
+}
+.button-add{
+    width:90px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 700 !important;
+    height: 30px;
+    border: none;
+    background-color: rgb(0,131,247);
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 200;
+}
+.header-add{
+    display: flex;
+    padding: 1px 5px;
+    border-bottom: 0.0005px solid rgb(218, 215, 215);
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-ma-add{
+    width: 91% !important;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 700 !important;
+    height: 40px;
+    border: none;
+    background-color: rgb(0,131,247);
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: 200;
+    cursor: pointer;
+
+}
+.detail-info-add{
+    margin-left: 40px;
+}
+.same-add{
+    display: flex;
+}
+.body-right-detail-info-add{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.detail-info-top-right-add{
+    margin-left: 90px;
+    font-size: medium;
+    font-weight: 100;
+}
+.detail-info-top-add{
+    font-weight: 550;
+}
+
+.button-trangthai-add{
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    margin-left: 20px;
+}
+
+i.fa-solid.fa-xmark.icon{
+    color: black;
+    margin-right: 20px;
+}
+.detail-info-top-left-add{
+    margin-top: 40px;
+    font-weight: 550
+}
+
+.tieude-add{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    list-style: none;
+    margin-left: 40px;
+}
+.chitiet-left-add{
+    font-size: medium;
+    font-weight: 550;
+}
+.detail-info-buton-add{
+    width: 85%;
+    height: 30px;
+}
+.same-add{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.detail-info-right-add{
+    margin-left: 110px;
+}
+
+.input-name-add{
+    height: 30px;
+    width: 300px;
+}
+
+
+
+/* CSSS BUTTON */
+
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+
+
+
+#buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  border-radius: 50px;
+  font-weight: 900;
+  text-align: center;
+  margin: 30px;
+  width: 200px;
+  transition: all .3s ease;
+}
+
+.btn-solid-add {
+  background-image: linear-gradient(130deg, #278cc3 0%, #00dbde 100%);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color: white;
+  font-weight: 900;
+}
+
+.body-botton{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.button-add{
+    width: 95%;
+    height: 40px;
+    border-radius: 4px;
+}
+/* .input-name-add{
+    width: 350px;
+} */

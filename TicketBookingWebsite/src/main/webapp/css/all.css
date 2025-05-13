@@ -1,0 +1,67 @@
+/* CSS cho phần Đăng Nhập / Đăng Ký */
+.top_1r div {
+    display: inline-block;
+}
+
+.top_1r a {
+    background-color: #ff6666;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.top_1r a:hover {
+    background-color: #ff4d4d;
+    color: white;
+    border-color: #ff4d4d;
+}
+
+.top_1r i {
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Chỉnh sửa khung tìm kiếm */
+.top_1m .form-control {
+    border-radius: 15px; /* Bo tròn khung tìm kiếm */
+    padding: 10px 20px; /* Thêm padding để khoảng cách rộng hơn */
+    border: 2px solid #ccc; /* Viền nhạt hơn */
+    background-color: #f9f9f9; /* Màu nền nhạt */
+    color: #333; /* Màu chữ */
+    transition: all 0.3s ease; /* Hiệu ứng chuyển động khi hover hoặc focus */
+}
+
+/* Khi hover vào khung tìm kiếm */
+.top_1m .form-control:hover {
+    border-color: #ff4d4d; /* Đổi màu viền khi hover */
+    background-color: #fff; /* Nền trắng khi hover */
+}
+
+/* Khi focus vào khung tìm kiếm (click vào) */
+.top_1m .form-control:focus {
+    border-color: #ff4d4d; /* Đổi màu viền khi focus */
+    outline: none; /* Ẩn đường viền mặc định khi focus */
+    box-shadow: 0 0 5px rgba(255, 77, 77, 0.5); /* Hiệu ứng bóng khi focus */
+    background-color: #fff; /* Nền trắng khi focus */
+    color: #333;
+}
+
+/* Placeholder style (văn bản trong khung tìm kiếm khi chưa nhập dữ liệu) */
+.top_1m .form-control::placeholder {
+    color: #999; /* Màu placeholder nhạt hơn */
+}
+
+
+
+
+
+
+
+

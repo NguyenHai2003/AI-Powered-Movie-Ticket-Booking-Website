@@ -1,0 +1,326 @@
+/* Chatbox Icon */
+.chatbox-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    animation: float 2s infinite ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1000; /* Đảm bảo rằng nó luôn hiển thị trên cùng */
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.chatbox-icon::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #00ffcc, #0066ff);
+    opacity: 0.6;
+    filter: blur(8px);
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+.chatbox-icon:hover::before {
+    opacity: 1; /* Tăng độ sáng khi hover */
+}
+
+.chatbox-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Logo và tên thương hiệu */
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; /* Khoảng cách giữa logo và văn bản */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.2; /* Đảm bảo khoảng cách hợp lý giữa các dòng */
+}
+
+.cinema-name {
+    font-size: 20px; /* Font chính cho tên thương hiệu */
+}
+
+.subtitle {
+    font-size: 14px; /* Font nhỏ hơn cho dòng mô tả */
+    font-weight: normal;
+    color: #e8f5e9; /* Màu chữ nhạt hơn */
+}
+
+/* Nút đóng */
+.close-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.close-btn:hover {
+    transform: scale(1.2);
+}
+
+/* Chat Icon */
+.chat-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.chat-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+/* Hiển thị khi hover */
+.chatbox-icon:hover .greeting-message {
+    display: block;
+    opacity: 1;
+}
+
+/* Modal */
+.modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Nền đen mờ */
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(45deg, #ff0000, #660000); /* Nền gradient đỏ và đen */
+    border-radius: 8px;
+    width: 900px;
+    height: 700px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    animation: zoomIn 0.3s ease-out;
+    color: white; /* Màu chữ trắng */
+     overflow-y: auto;
+}
+
+/* Zoom-in animation */
+@keyframes zoomIn {
+    0% {
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.modal-header {
+    display: flex;
+    padding: 20px;
+    background: linear-gradient(45deg, #cc0000, #330000); /* Gradient đỏ đậm và đen */
+    color: white;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 20px;
+    font-size: 16px;
+    max-height: 400px;
+    overflow-y: auto;
+    color: white; /* Màu chữ trắng */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Tăng độ dễ đọc */
+}
+
+/* Container for the scrolling message */
+.scrolling-message {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.scrolling-message p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll-left 15s linear infinite;
+}
+
+/* Keyframes for scrolling effect */
+@keyframes scroll-left {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.modal-footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    background: linear-gradient(45deg, #cc0000, #330000); /* Gradient đỏ đậm và đen */
+    margin-top: 100px;
+}
+
+.modal-footer input {
+    width: 80%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #fff; /* Viền trắng */
+    background-color: #1a1a1a; /* Nền đen nhạt */
+    color: white;
+    font-size: 16px;
+}
+
+.modal-footer button {
+    padding: 12px 20px;
+    background-color: #ff0000; /* Nút đỏ */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.modal-footer input:focus,
+.modal-footer button:focus {
+    outline: none;
+}
+
+.modal-footer button:hover {
+    background-color: #cc0000; /* Đỏ đậm hơn khi hover */
+}
+
+/* Chat Message Styles */
+.user-message {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #660000; /* Đỏ đậm */
+    border-radius: 50%;
+    margin-right: 10px;
+    background-image: url('/DoAnWebCinema/images/avatar-nam.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.message-content {
+    background-color: #1a1a1a; /* Nền đen nhạt */
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.bot-message {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+.bot-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #660000; /* Đỏ đậm */
+    border-radius: 50%;
+    margin-right: 10px;
+    background-image: url('/DoAnWebCinema/images/chatboxicon.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+.bot-message .message-content {
+    background-color: #333333; /* Đen nhạt hơn */
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+/* Cải thiện cách cuộn chat */
+#chat-content {
+    max-height: 500px;
+    padding-right: 10px;
+    color: white; /* Màu chữ trắng */
+}
+
+#greeting {
+    display: none; /* Ban đầu ẩn */
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    bottom:100px; /* Điều chỉnh vị trí từ dưới lên */
+    right: 0;
+    z-index: 9999;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+#greeting.show {
+    display: block; /* Hiển thị khi cần */
+    opacity: 1;
+    visibility: visible;
+}
+
+

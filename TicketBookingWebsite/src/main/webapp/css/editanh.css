@@ -1,0 +1,14 @@
+.icon-chuong, .icon-bap, .icon-traitim, .icon-moigoi {
+  width: 3%; /* Ảnh chiếm 50% chiều rộng của phần tử cha */
+  height: auto; /* Giữ nguyên tỷ lệ khung hình */
+}
+.img-center{
+	  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .icon-chuong, .icon-bap, .icon-traitim, .icon-moigoi {
+    width: 6%; /* Ảnh chiếm 75% chiều rộng của phần tử cha trên thiết bị di động */
+  }
+}

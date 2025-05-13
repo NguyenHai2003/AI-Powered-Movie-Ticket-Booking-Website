@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-21">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/auto-service-annotations-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/byte-buddy-1.17.5.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/commons-exec-1.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/error_prone_annotations-2.36.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/failureaccess-1.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/guava-33.4.6-jre.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/j2objc-annotations-3.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/jspecify-1.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/opentelemetry-api-1.48.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/opentelemetry-api-incubator-1.46.0-alpha.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/opentelemetry-context-1.48.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/opentelemetry-exporter-logging-1.48.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/opentelemetry-sdk-1.48.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/opentelemetry-sdk-common-1.48.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/opentelemetry-sdk-extension-autoconfigure-1.48.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/opentelemetry-sdk-logs-1.46.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/opentelemetry-sdk-metrics-1.46.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/opentelemetry-sdk-trace-1.48.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-api-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-chrome-driver-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-chromium-driver-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-devtools-v133-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-devtools-v134-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-devtools-v135-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-edge-driver-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-firefox-driver-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-http-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-http-4.31.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-ie-driver-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-java-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-json-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-manager-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-os-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-remote-driver-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-safari-driver-4.31.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-java-4.31.0/selenium-support-4.31.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

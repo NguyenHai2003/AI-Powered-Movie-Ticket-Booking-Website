@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.date-selector {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.date-selector button {
+    width: 14%;
+    padding: 10px;
+    background-color: #eaeaea;
+    border: none;
+    cursor: pointer;
+}
+
+.date-selector button:hover {
+    background-color: #ccc;
+}
+
+.alert {
+    background-color: #ffeb3b;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.movie-item {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.movie-info {
+    flex: 1;
+}
+
+.movie-info h2 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+.movie-info p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.movie-info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.movie-info a:hover {
+    text-decoration: underline;
+}
+
+.showtimes {
+    margin-top: 10px;
+}
+
+.showtimes button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.showtimes button:hover {
+    background-color: #f1f1f1;
+}

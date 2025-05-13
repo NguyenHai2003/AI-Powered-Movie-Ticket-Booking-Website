@@ -1,0 +1,124 @@
+/* Ghe */
+.screen {
+    background-color: #e0e0e0; /* Màu nền sáng hơn */
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ */
+}
+
+.seat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.seat {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 18px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Thêm hiệu ứng chuyển động */
+    width: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Thêm bóng đổ */
+}
+
+.seat:hover {
+    background-color: #45a049;
+    transform: scale(1.1); /* Hiệu ứng phóng to khi hover */
+}
+
+.reserved {
+    background-color: gray; /* Màu ghế đã đặt */
+}
+
+.reserve-footer {
+    position: fixed; /* Giữ footer ở vị trí cố định */
+    bottom: 0; /* Gắn vào đáy trang */
+    left: 0;
+    right: 0;
+    background-color: gray;
+    color: white; /* Màu chữ trắng */
+    text-align: center; /* Căn giữa nội dung */
+    padding: 10px; /* Khoảng cách xung quanh */
+    z-index: 1000; /* Để footer ở trên cùng */
+}
+
+/* Thêm margin cho nội dung chính để không bị che khuất */
+.main {
+    margin-bottom: 200px; /* Thay đổi giá trị này nếu cần thiết */
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 18px;
+    display: none; /* Ẩn footer ban đầu */
+}
+
+.countdown {
+    color: red;
+}
+
+.seat.selected {
+    background-color: #d3d3d3; /* Màu xám cho ghế được chọn */
+    color: #000; /* Màu chữ đen */
+}
+
+.seat.occupied {
+    background-color: #ff0000; /* Màu đỏ cho ghế đã đặt */
+    color: #fff; /* Màu chữ trắng */
+}
+
+.occupied {
+    background-color: #ff4d4d; /* Màu đỏ cho ghế đã đặt */
+    cursor: not-allowed; /* Hiển thị con trỏ không cho phép */
+    opacity: 0.6; /* Giảm độ trong suốt */
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(97, 186, 241);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.btn-submit:hover {
+    background-color: rgb(14, 152, 237);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .info-film-right {
+        text-align: center; /* Căn giữa cho các thiết bị nhỏ */
+    }
+    
+    .seat {
+        width: 45px; /* Giảm kích thước ghế trên thiết bị nhỏ */
+    }
+
+    .reserve-footer {
+        padding: 5px; /* Giảm padding cho footer trên thiết bị nhỏ */
+    }
+
+    .btn-submit {
+        width: 100%; /* Đặt nút xác nhận chiếm toàn bộ chiều rộng */
+    }
+}

@@ -1,0 +1,192 @@
+@import url(https://fonts.google.com/specimen/Merriweather);
+html, body{
+  /* font-family: 'Merriweathers'; */
+}
+input:focus{
+    outline: none;
+}
+.button{
+    background-color: rgb(0,131,247);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px 4px;
+    font-size: 12px;
+    text-align:center;
+    width: 30px;
+    height: 30px;
+}
+.contener{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 200px auto;
+    height: 450px;
+    width: 600px;
+}
+.icon{
+    color: #fff;
+    margin-right: 20px;
+}
+/* cua chi tiet nhan vien */
+.header{
+    display: flex;
+    padding: 1px 5px;
+    background-color:rgb(0,131,247);
+    justify-content: space-between;
+    align-items: center;
+}
+.header-name{
+   color: #fff;
+    margin-left: 30px;
+}
+.box-header{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-add-e{
+    display: inline;
+}
+.display-inline{
+    display: inline;
+}
+.tieude{  
+    margin-top: 25px;
+    margin-left: 50px;
+    list-style: none ;
+}
+.chitiet{
+    color: rgb(235, 76, 76);
+    margin-left: 120px;
+
+}
+.chitiet-left{
+    position: absolute;  
+}
+.button-dong{
+    width:70px;
+    border-radius: 2px;
+    height: 30px;
+    border: none;
+    background-color:#DDDDDD ;
+    font-weight: 100;
+    cursor: pointer;
+    font-weight: 700 !important;
+    margin-right: 10px;
+}
+.tieude-btn{
+    margin-top: 25px;
+    margin-left: 430px;
+    list-style: none ;
+    display: flex;
+}
+.button-fix{
+    width:90px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 700 !important;
+    height: 30px;
+    border: none;
+    background-color: rgb(0,131,247);
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 200;
+}
+.button-header1-e{
+    width:100px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    background-color: rgb(0,131,247);
+    font-size: 12px;
+    margin-right: 10px;
+    text-align:center;
+    color: white;
+    font-family:'Times New Roman', Times, serif
+    
+}
+
+.button-header-e{
+    background-color: rgb(0,131,247);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    /* padding-right: 4px; */
+    font-size: 12px;
+    text-align:center;
+    width: 50px;
+    height: 30px; 
+    
+}
+/* ------------------------- */
+.container-add-e{
+    width: 100%;
+    margin: 0 auto;
+}
+.body-add-e{
+    margin: 0 auto;
+    width: 80%;
+}
+.header-name-add-e{
+    text-align: center;
+    font-weight: 700;
+}
+.tieude-add-e{
+    margin-left: 45px;
+    margin-bottom: 10px;
+}
+.chitiet-left-add-e{
+    font-weight: 700;
+    /* position: absolute; */
+}
+.chitiet-add-e{
+    color: red;
+    /* margin-left: 150px; */
+}
+.chitiet-add-e-head{
+    margin-left: 100px;
+    color: red;
+}
+.tieude1-add-e{
+    margin-top: 20px;
+}
+.input-add-e{
+    padding-top: 10px;
+}
+.input-name-add-e{
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px;
+    /* border-radius: 2px; */
+    /* border: none; */
+}
+.tieude-btn-add-e{
+    margin-top: 25px;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: flex-end;
+}
+.btn-radio{
+    margin-left: 10px;
+}
+.button-add-add-e{
+    border: none;
+    width: 150px;
+    height: 45px;
+    background-color: rgb(0,131,247);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.button-dong-add-e{
+    border: none;
+    margin-left: 5px;
+    width: 100px;
+    height: 45px;
+    font-weight: bold;
+    background-color:#DDDDDD;
+    border-radius: 5px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #e5f8ff !important;
+}
