@@ -49,6 +49,16 @@
       ![image](https://github.com/user-attachments/assets/852903b2-0f90-454a-9267-1af7502076b8)
 3. **Danh sách hóa đơn**
    ![image](https://github.com/user-attachments/assets/6929a622-71ae-4ab8-af78-407159847e58)
+### C. Chatbot
+**Chức năng hiểu ngữ cảnh**
+    ![image](https://github.com/user-attachments/assets/ba2278e7-0d00-4af8-a111-5fc3a35527f3)
+    ![image](https://github.com/user-attachments/assets/31885dd1-40ea-40d2-bd15-972ad0b9f340)
 
+**Đặt vé**
+    ![image](https://github.com/user-attachments/assets/7f02cd03-77ff-4904-8d97-2bdbfefcbac0)
 
+**Đề suất phim, chi nhánh, suất chiếu**
+    ![image](https://github.com/user-attachments/assets/6d21338a-9f0c-4e6f-940d-3f59c5ab2b1f)
+    ![image](https://github.com/user-attachments/assets/c131b7f8-b108-490a-a35c-b1c630d9308f)
+    ![image](https://github.com/user-attachments/assets/8e3382a2-63f0-4fe2-8da1-d55f51c73694)
 
