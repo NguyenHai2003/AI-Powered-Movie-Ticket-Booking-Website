@@ -1,9 +1,16 @@
 # AI-Powered-Movie-Ticket-Booking-Website
 ## Website Đặt vé xem phim
 
-Ứng dụng này cung cấp các chức năng quản lý toàn diện cho một hệ thống đặt vé, bao gồm các chức năng quản lý vé, phòng chiếu, phim, nhân viên, khách hàng, và các giao dịch. Ứng dụng được tổ chức thành nhiều phần chính, mỗi phần cung cấp các tính năng cụ thể.
+Hệ thống Quản lý Đặt vé Xem phim là một website mạnh mẽ được xây dựng bằng Java, cung cấp giải pháp toàn diện cho việc quản lý các hoạt động của rạp chiếu phim. Ứng dụng này cho phép quản lý dễ dàng các bộ phim, phòng chiếu, lịch chiếu, khách hàng, và các giao dịch đặt vé. Điểm nổi bật của hệ thống là sự tích hợp của một chatbot AI thông minh, giúp người dùng đặt vé và nhận gợi ý phim một cách thuận tiện. Dữ liệu được lưu trữ an toàn trong SQL Server và ứng dụng được thiết kế theo kiến trúc MVC (Model-View-Controller) để đảm bảo tính linh hoạt và dễ bảo trì.
 
-## Tổng quan
+## Công nghệ sử dụng
+
+* **Ngôn ngữ lập trình**: Java
+* **Kiến trúc**: MVC (Model-View-Controller)
+* **Cơ sở dữ liệu**: SQL Server
+* **Cổng thanh toán**: API ZaloPay
+
+## Tổng quan các tính năng
 ### A. Quản lý
 1. **Quản lý Vé**
     - Chức năng thêm, sửa hoặc xóa thông tin vé.
@@ -49,7 +56,12 @@
       ![image](https://github.com/user-attachments/assets/852903b2-0f90-454a-9267-1af7502076b8)
 3. **Danh sách hóa đơn**
    ![image](https://github.com/user-attachments/assets/6929a622-71ae-4ab8-af78-407159847e58)
+   
 ### C. Chatbot
+* **Hỗ trợ người dùng đặt vé nhanh chóng thông qua đối thoại.**
+* **Cung cấp gợi ý phim dựa trên sở thích hoặc lịch sử xem của người dùng.**
+* **Trả lời các câu hỏi thường gặp về phim, lịch chiếu, và rạp chiếu.**
+
 **Chức năng hiểu ngữ cảnh**
     ![image](https://github.com/user-attachments/assets/ba2278e7-0d00-4af8-a111-5fc3a35527f3)
     ![image](https://github.com/user-attachments/assets/31885dd1-40ea-40d2-bd15-972ad0b9f340)
