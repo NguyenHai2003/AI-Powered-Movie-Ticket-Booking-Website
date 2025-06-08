@@ -37,6 +37,7 @@
 2. **Các thông tin mặc định**
     - Cho phép khách hàng xem các thông tin mặc định như: trang chủ, phim đang chiếu, phim sắp chiếu,...
       ![image](https://github.com/user-attachments/assets/8949152a-5a7a-48c5-9d9c-10b4db3c1e56)
+      ![image](https://github.com/user-attachments/assets/fb34361a-baf7-4492-8b8a-d11bb0086d1b)
 
 3. **Chức năng Đặt Vé cho Khách hàng**
     - Khách hàng có thể chọn phim và suất chiếu.
