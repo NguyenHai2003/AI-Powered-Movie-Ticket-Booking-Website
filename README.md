@@ -8,7 +8,7 @@ Hệ thống Quản lý Đặt vé Xem phim là một website mạnh mẽ đư�
 * **Ngôn ngữ lập trình**: Java
 * **Kiến trúc**: MVC (Model-View-Controller)
 * **Cơ sở dữ liệu**: SQL Server
-* **Cổng thanh toán**: API ZaloPay
+* **Cổng thanh toán**: API VNPay
 
 ## Tổng quan các tính năng
 ### A. Quản lý
